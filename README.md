@@ -28,6 +28,9 @@ php artisan app:reset ['yes']
 php artisan serve
 ```
 
+#### Not:
+Veritbanı bilgilerini .env dosyasına eklemeyi unutmayınız.
+
 ## UYGULAMA HAKKINDA
 
 Proje bir todo list uygulamasıdır. Proje ortalama 3.5 saatte tamamlanmıştır. Bu süreye laravel kurulumu paket kurulumu ve git için harcanılan süre dahil değildir.

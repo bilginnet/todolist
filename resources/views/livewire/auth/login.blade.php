@@ -19,9 +19,7 @@
                             <div class="mb-3">
                                 <div class="mb-2 w-100">
                                     <label class="text-muted" for="password">Password</label>
-                                    <a href="javascript:void(0)" class="float-end">
-                                        Forgot Password?
-                                    </a>
+{{--                                    <a href="javascript:void(0)" class="float-end">Forgot Password?</a>--}}
                                 </div>
                                 <input id="password" type="password" class="form-control" name="password">
                                 @error('password') <div class="d-block invalid-feedback">{{ $message }}</div> @enderror
@@ -32,9 +30,7 @@
                                     <input type="checkbox" name="remember" id="remember" class="form-check-input">
                                     <label for="remember" class="form-check-label">Remember Me</label>
                                 </div>
-                                <button type="submit" class="btn btn-primary ms-auto">
-                                    Login
-                                </button>
+                                <button type="submit" class="btn btn-primary ms-auto">Login</button>
                             </div>
                         </form>
                     </div>

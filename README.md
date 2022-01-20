@@ -3,6 +3,7 @@
 
 
 ## Kullanılan Teknolojiler
+- PHP 7.4 or higher 
 - Laravel 8
 - Livewire
 - Fortify
